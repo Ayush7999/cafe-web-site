@@ -1,131 +1,90 @@
-// Alert Box JavaScript start
-window.onload = function() {
-  showAlert();
-  disableScroll(); // Call the function to disable scroll when alert is shown
+
+let navbar = document.querySelector('.navbar');
+document.querySelector('#menu-bar').onclick=() =>{
+    navbar.classList.toggle('active');
 }
 
-function showAlert() {
-  document.getElementById('customAlert').style.display = 'block';
-  disableScroll(); // Call the function to disable scroll when alert is shown
+
+
+let search = document.querySelector('.search');
+document.querySelector('#search').onclick=() =>{
+    search.classList.toggle('active');
 }
 
-function closeAlert() {
-  document.getElementById('customAlert').style.display = 'none';
-  enableScroll(); // Call the function to enable scroll when alert is closed
-}
 
-var scrollTop;
-
-function disableScroll() {
-  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-  document.body.style.position = 'fixed';
-  document.body.style.top = `-${scrollTop}px`;
-}
-
-function enableScroll() {
-  document.body.style.position = '';
-  document.body.style.top = '';
-  window.scrollTo(0, scrollTop);
-}
-
-function openFullScreen() {
-    document.getElementById('customAlert').style.display = 'none';
-    enableScroll();
-    var elem = document.documentElement;
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.mozRequestFullScreen) {
-      elem.mozRequestFullScreen();
-    } else if (elem.webkitRequestFullscreen) { 
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { 
-      elem.msRequestFullscreen();
-    }
-}
-// Alert Box JavaScript End
-
-
-
-
-
-// Chnage nav background color js Start
-function changeBg(){
-    var navbar = document.getElementById('nav-bar');
-    var menubar = document.getElementById('menu-bar');
-
-    var scrollValue = window.scrollY;
-    if(scrollValue < 250){
-        navbar.classList.remove('bgColor');
-        menubar.classList.remove('bgColor');
-    }
-    else{
-        navbar.classList.add('bgColor');
-        menubar.classList.add('bgColor');
-    }
-}
-window.addEventListener('scroll', changeBg);
-
-// Chnage nav background color js End
-
-
-// change in title js start
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "T20 Warld Cup";
-            favicon.href = "image/trophy.png";
-        }
-        else {
-            document.title = "Come Back To My WebPage";
-            favicon.href = "image/please.png";
-        }
+var swiper = new Swiper(".product-row", {
+  spaceBetween: 30,
+  loop:true,
+  centeredSlides:true,
+  autoplay:{
+      delay:4500,
+      disableOnInteraction:false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
-// change in title js End
-
-
-
-// Add some animation js start
-
-window.addEventListener('scroll',reveal);
-function reveal(){
-    var reveals = document.querySelectorAll('.reveal');
-    for(var i=0; i < reveals.length; i++){
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 40;
-
-        if(revealtop < windowheight - revealpoint){
-            reveals[i].classList.add('active');
-        }
-        else{
-            reveals[i].classList.remove('active');
-        }
-    }
-}
-// Add some animation js End
-
-
-
-// pre-loader js Start
-$(window).on("load", function(){
-    $(".loader-wrapper").fadeOut("slow", function() {
-      $("body").removeClass("disable-scroll");
-    });
-    $("body").addClass("disable-scroll");
-  });
-// pre-loader js End
-
-
-
-const toggle = document.querySelector('.toggle_btn');
-const taggleBtnIcon = document.querySelector('.toggle_btn i');
-const dropMenu = document.querySelector('.menu-bar');
-
-toggle.onclick = function () {
-    dropMenu.classList.toggle('open');
-    const isOpen = dropMenu.classList.contains('open');
-
-    taggleBtnIcon.className = isOpen ?
-        'bx bx-x' :
-        'bx bx-menu';
-};
+var swiper = new Swiper(".blogs-row", {
+  spaceBetween: 30,
+  loop:true,
+  centeredSlides:true,
+  autoplay:{
+      delay:4500,
+      disableOnInteraction:false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation:{
+    nextE1 :".swiper-button-next",
+    prevE1 :".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 1,
+    },
+  },
+});
+var swiper = new Swiper(".review-row", {
+  spaceBetween: 30,
+  loop:true,
+  centeredSlides:true,
+  autoplay:{
+      delay:4500,
+      disableOnInteraction:false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
