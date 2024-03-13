@@ -1,364 +1,408 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all in one cafe</title>
     <link rel="stylesheet" href="style.css">
-    <link id='favicon' rel="shortcut icon" href="image/trophy.png" type="image/x-png">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <title>T20 Warld Cup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
+
 <body>
 
-
-    <! -- pre-loader start -->
-    <div class="loader-wrapper">
-      <div class="loader"></div>
-      <p class="loader-text">Please wait...</p>
-    </div>
-    <! -- pre-loader End -->
-
-
-
-    <! -- Alert Box start -->
-    <div id="customAlert" class="custom-alert">
-        <div class="alert-content">
-          <span class="close-btn" onclick="closeAlert()">&times;</span>
-          <h3>Switch your screen to fullscreen for a better experience.</h3>
-          <button class="button-33" onclick="openFullScreen()" >Okay</button>
+    <!--header section start here -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#"><img src="image/logo12.png" style=width:80px; height:80px; alt=""></a>
+            <h1 class="logoName">cafe & Restaurant </h1>
         </div>
-    </div>
-    <! -- Alert Box end -->
 
-
-    <! -- header section start -->
-    <header id="nav-bar">
-        <h2 class="logo"><img src="image/pngtree-t-20-world-cup-2024-logo-skecth-look-vector-png-image_14006779.png"></h2>
-        <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#about">About</a>
-            <a href="#winner">Winners</a>
-            <a href="#pichers">Pichers</a>
-            <a href="#feedback">Feedback</a>
-            <a href="#contact">Contact us</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#Blogs">Blogs</a>
+            <a href="#Review">Review</a>
+            <a href="#Contant">Contact</a>
         </nav>
-        <div class="menu">
-            <div class="toggle_btn">
-                <i class='bx bx-menu'></i>
-            </div>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
         </div>
     </header>
-    <div class="menu-bar" id="menu-bar">
-        <a href="#" style="margin-top: 70px;">Home</a>
-        <a href="#about">About</a>
-        <a href="#winner">Winners</a>
-        <a href="#pichers">Pichers</a>
-        <a href="#feedback">Feedback</a>
-        <a href="#contact">Contact us</a><br>
-    </div>
-    <! -- header section end -->
+    <!--header section end here-->
 
-    <! -- Home page section start -->
-    <div class="dark">
-        <section class="hero" id="home">
-            <p>May the tricolor wave high in triumph as India conquers the T20 World Cup in 2024...!</p>
-        </section>
-        <section class="hero-mo" id="home">
-            <p>May the tricolor wave high in triumph as India conquers the T20 World Cup in 2024...!</p>
-        </section>
-    </div>
-    <! -- Home page section end -->
-
-
-    <! -- about page section start -->
-    <section class="about" id="about">
-        <h2 class="heading reveal"><i class='bx bxs-user'></i> About...</h2>        
-        <div class="row">   
-            <div class="image reveal">
-                <img src="image/XBESYQENXRJ77HFQMXUWR66KDA.png" alt="">
-            </div>
-            <div class="content reveal">
-                <h3 class="reveal">T20 Warld Cup</h3>
-                <span class="tag reveal" >Cricket tournament</span>
-                
-                <p class="reveal">The Cricket World Cup is organized by the International Cricket Council (ICC), the global governing body for cricket. The tournament features national teams from around the world competing for the title of world champions. The format of the World Cup has evolved over the years, but it typically involves a series of group stage matches followed by knockout rounds, culminating in a final to determine the winner. </p>
-                <p class="reveal">Some key points about the Cricket World Cup include:</p>
-  
-                <p class="reveal"><b>1) Frequency :</b> The ICC Cricket World Cup is held approximately every four years.</p>
-                <p class="reveal"><b>2) History:</b> The first Cricket World Cup was held in 2007 in South Africa. West Indies emerged as the inaugural champions.</p>
-                <p class="reveal"><b>3) Participation:</b> The tournament usually involves teams from Test-playing nations, as well as associate and affiliate members of the ICC.</p>
-                <p class="reveal"><b>4) Trophy:</b> The winners of the Cricket World Cup are awarded the ICC Cricket World Cup Trophy. The trophy has undergone changes over the years.</p>
+    <!--home section start here-->
+    <section class="home" id="Home">
+        <div class="homeContent">
+            <h2> Delicious food for Everyone </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur,adipisicing elit. Recusandae libero unde dignissimos ducimus modix</p>
+            <div class="home-btn">
+                <a href="#"><button> see more</button></a>
             </div>
         </div>
-      </section>
-    <! -- about page section end -->
-    
-
-
-    <! -- Winner List page section start -->
-    <section class="winner" id="winner"><br>
-        <section class="mo-winner">
-      <center><h2 class="heading reveal" style="margin-left: 3.5%;color: rgb(246, 220, 187);"><i class='bx bxs-trophy'></i> Last Winners Of T20 Warld Cup..</h2></center>
-      <section class="reveal">
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/india.png" hight="28px" width="140px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🇮🇳 The <b>Indian</b> cricket team was the first to win the T20 World Cup 2007 playing under the captaincy of MS Dhoni. 🇮🇳</p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/pakistan.png" hight="40px" width="185px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🇵🇰 After finishing as runners-up in the first T20 World Cup, Pakistan won their first 120 World Cup two years later in 2009. 🇵🇰</p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/england.png" hight="42.5x" width="175px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England was the winner of T20 World Cup 2010.England became the first non-Asian team to win the T20 World Cup. 🏴󠁧󠁢󠁥󠁮󠁧󠁿</p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/west Indies.png" hight="60px" width="280px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🇪🇭 West Indies won their first T20 World Cup in 2012 by beating hosts Sri Lanka in the summit clash by 36 runs. 🇪🇭</p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/shri lanka.png" hight="60px" width="240px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🇱🇰 In T20 World Cup 2014, Sri Lanka defeated India to become the new T20 World Cup Winner. 🇱🇰 </p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/west Indies.png" hight="60px" width="280px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🇪🇭 West Indies cricket team won the T20 World Cup 2016 by beating England in the final. 🇪🇭</p>
-            </div>
-        </div>
-        <div class="panel">
-          <div class="panel-header">
-              <h1><img src="image/australia.png" hight="55px" width="255px"></h1>
-          </div>
-          <div class="panel-content">
-              <p>🇦🇺 The final match of this T20 World Cup 2021 played between Australia and New Zealand.Team Australia won the Match.🇦🇺</p>
-          </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/england.png" hight="42.5x" width="180px"></h1>
-            </div>
-            <div class="panel-content">
-                <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 The T20 World Cup 2022 is over now. England became the new winner of the ICC Men's T20 World Cup. 🏴󠁧󠁢󠁥󠁮󠁧󠁿 </p>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="panel-header">
-                <h1><img src="image/india.png" hight="27px" width="140px" style="opacity: 0.5;"></h1>
-            </div>
-            <div class="panel-content">
-                <p style="color: #ff3300; font-size: 16px;"><b>🇮🇳 Roar for Victory! India's Triumph Awaits - T20 World Cup 2024!". 🇮🇳</b><br><br></p>
-            </div>
-        </div><br><br>
-      </section>
-      </section>
     </section>
-    <! -- Winner List page section end -->
 
-
-
-    <! -- Winner Pichers page section start -->
-    <div class="pic-heading"><br><h2 class="heading reveal" id="pichers"><i class='bx bxl-mailchimp'></i> Winners Pichers</h2>
-        <div class="wrapper reveal">
-        <div class="container reveal">
-            <input type="radio" name="slide" id="c1" checked>
-            <label for="c1" class="card">
-                <div class="row">
-                    <div class="icon">2007</div>
-                    <div class="description">
-                        <h4>India</h4>
-                        <p>India won the T20 World Cup in 2007.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c2" >
-            <label for="c2" class="card">
-                <div class="row">
-                    <div class="icon">2009</div>
-                    <div class="description">
-                        <h4>Pakistan</h4>
-                        <p>Pakistan won the T20 World Cup in 2009.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c3" >
-            <label for="c3" class="card">
-                <div class="row">
-                    <div class="icon">2010</div>
-                    <div class="description">
-                        <h4>England</h4>
-                        <p>England won the T20 World Cup in 2010.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c4" >
-            <label for="c4" class="card">
-                <div class="row">
-                    <div class="icon">2012</div>
-                    <div class="description">
-                        <h4>West Indies</h4>
-                        <p>West Indies won the T20 World Cup in 2012.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c5" >
-            <label for="c5" class="card">
-                <div class="row">
-                    <div class="icon">2024</div>
-                    <div class="description">
-                        <h4>Sri Lanka</h4>
-                        <p>Sri Lanka won the T20 World Cup in 2014.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c6" >
-            <label for="c6" class="card">
-                <div class="row">
-                    <div class="icon">2016</div>
-                    <div class="description">
-                        <h4>West Indies</h4>
-                        <p>West Indies won the T20 World Cup in 2016.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c7" >
-            <label for="c7" class="card">
-                <div class="row">
-                    <div class="icon">2021</div>
-                    <div class="description">
-                        <h4>Australia</h4>
-                        <p>Australia won the T20 World Cup in 2021.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c8" >
-            <label for="c8" class="card">
-                <div class="row">
-                    <div class="icon">2022</div>
-                    <div class="description">
-                        <h4>England</h4>
-                        <p>England won the T20 World Cup in 2022.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c9" >
-            <label for="c9" class="card">
-                <div class="row">
-                    <div class="icon">2024</div>
-                    <div class="description">
-                        <h4>India</h4>
-                        <p>Cheer for India! We want them to win the T20 World Cup in 2024.</p>
-                    </div>
-                </div>
-            </label>
-        </div>
-        </div>
-    </div>
-    <! -- Winner Pichers page section end -->
-
-
-
-
-    <! -- Feedback page section start -->
-    <section class="contact" id="feedback"><br><br>
-      <center><h2 class="reveal" style="margin-left:-200px;"><img src="image/clipart4230072.png" height="60px" width="52px" /><label style="font-family:Lucida Calligraphy;font-weight: bold;font-size:1.3em;margin-left:13px;position: absolute;margin-top:9px;">Feedback...</h2><label></center>
-        <div class="container1">
-          <div class="content">
-            <div class="image-box reveal">
-              <img src="image/contact1.png" alt="" >
+    <section class="mo-home" id="Home">
+        <div class="homeContent">
+            <h2>  Delicious food for Everyone  </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur,adipisicing elit. Recusandae libero unde dignissimos ducimus modix</p>
+            <div class="home-btn">
+                <a href="#"><button> see more</button></a>
             </div>
-          <form id="contact-form">
-            
-            <div class="form-group reveal">
-              <div class="field reveal">
-                <input type="text"  placeholder="Name" required>
-                <i class=''><img src="image/person1.png" height="28px" width="28px" style="margin-left:-6.5px;margin-top:6px;"></i>
-              </div>
-              <div class="field reveal">
-                <input type="text" name="email" placeholder="Email" required>
-                <i class=''><img src="image/gmail1.png" height="24px" width="24px" style="margin-left:-7px;margin-top:6px;"></i>
-              </div>
-              <div class="field reveal">
-                <input type="text" name="phone" placeholder="Phone">
-                <i class=''><img src="image/call.png" height="21px" width="21px" style="margin-left:-3.5px;margin-top:6px;"></i>
-              </div>
-              <div class="message reveal">
-              <textarea placeholder="Message" name="message" required></textarea>
-              <i class=""><img src="image/message.png" height="22px" width="24px" style="margin-left:-1.7px;margin-top:6px;"></i>
-              </div>
-              </div>
-            <div class="button-area reveal">
-              <button type="submit">
-                Submit <i class="fa fa-paper-plane"></i></button>
-            </div>
-          </form>
-         </div>
-        </div><br>
+        </div>
     </section>
-    <! -- Feedback page section end -->
+    <!--home section end here -->
 
-    <! -- contact page section start -->
-    <section class="footer" id="contact">
+    <!--product section start here -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2> Our Exculsive Products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 2.png" style=width:200px; height:200px;alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>panir roti</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 3.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chicken Biryani</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 4.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Masala Dosa </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 5.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chicken Karahi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 6.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>rajasthani thali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 7.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>gujarati thali</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 8.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>paneer tikka</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pic 9.png" style=width:200px; height:200px; alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>kadai paneer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--product section end here-->
+
+
+    <!--blogs section start here-->
+    <section class="blogs" id="Blogs">
+
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/pizza.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Veggie Pizza</h3>
+                        <p>ew York-style pizza crust has been a staple in the pizza industry for years, and we’ve
+                            developed our dough balls to deliver that tried and true flavour,” said Luke Siedow,
+                            corporate
+                            chef at AK.</p>
+                        <p>The dough balls are made using whole-wheat flour and have a light sourdough flavour. They are
+                            designed to withstand high temperatures and wood-fired ovens</p>
+                        <a href="#blogs" class="btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/chicken1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>SIMPAL ROAST CHICKEN</h3>
+                        <p>Whether you’re planning a festive meal or just a simple family meal, a classic roasted
+                            chicken recipe or crispy roasted chicken pieces in the oven is always a
+                            good idea. There are different versions of cooking a perfect roast chicken. You can make a
+                            SIMPAL ROAST CHICKEN recipe without an oven as well.</p>
+                        <p>The dough balls are made using whole-wheat flour and have a light sourdough flavour. They are
+                            designed to withstand high temperatures and wood-fired ovens</p>
+                        <a href="#blogs" class="btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="image/fise3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Veggie Pizza</h3>
+                        <p>ew York-style pizza crust has been a staple in the pizza industry for years, and we’ve
+                            developed our dough balls to deliver that tried and true flavour,” said Luke Siedow,
+                            corporate
+                            chef at AK.</p>
+                        <p>The dough balls are made using whole-wheat flour and have a light sourdough flavour. They are
+                            designed to withstand high temperatures and wood-fired ovens</p>
+                        <a href="#blogs" class="btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--blogs section ends here-->
+
+    <!--newsletter section start here-->
+
+    <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest update</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="button" value="subscribe" class="box2">
+        </form>
+    </section>
+    <!--newsletter section ends here -->
+
+    <!--review section start here-->
+    <section class="review" id="Review">
+        <div class="heading">
+            <h2>client Review</h2>
+        </div>
+
+
+        <div class=" swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Food was well prepared, tasty and looked really nice.I can highly recommend Tuljak for food
+                            lovers.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="image/tony.png" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Tony stark</h3>
+                            <p> UI / UX designed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Food was well prepared, tasty and looked really nice.I can highly recommend Tuljak for food
+                            lovers..</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="image/tony.png" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Tony stark</h3>
+                            <p> UI / UX designed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Food was well prepared, tasty and looked really nice.I can highly recommend Tuljak for food
+                            lovers..</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="image/tony.png" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Tony stark</h3>
+                            <p> UI / UX designed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Food was well prepared, tasty and looked really nice.I can highly recommend Tuljak for food
+                            lovers..</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="image/tony.png" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Tony stark</h3>
+                            <p> UI / UX designed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Food was well prepared, tasty and looked really nice.I can highly recommend Tuljak for food
+                            lovers.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="image/tony.png" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Tony stark</h3>
+                            <p> UI / UX designed</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--review section ends here-->
+
+    <!--fotter section start here-->
+
+    <footer class="footer" id="Contant">
         <div class="box-container">
-        
-            <div class="box reveal">
-                <h3>Ayush Mishra</h3>
-                <p>Thank you for visiting my webpage. Connect with me over socials. <br/> <br/> Keep Rising 🚀<br><br>Happy Coading 👨🏻‍💻 </p>
-            </div>
-        
-            <div class="box reveal">
-                <h3>Quick links</h3>
-                <a href="#home"> <i class='bx bxs-chevron-right-circle'></i> Home</a>
-                <a href="#about"> <i class='bx bxs-chevron-right-circle'></i> About</a>
-                <a href="#winner"> <i class='bx bxs-chevron-right-circle'></i> Winners</a>
-                <a href="#pichers"><i class='bx bxs-chevron-right-circle'></i> Pichers</a>
-                <a href="#feedback"><i class='bx bxs-chevron-right-circle'></i> Feedback</a>
-                <a href="#contact"><i class='bx bxs-chevron-right-circle'></i> Contact</a>
-            </div>
-        
-            <div class="box reveal">
-                <h3 style="margin-left:16px;">Contact info</h3>
-                <p> <i class='bx bxs-phone-call'></i>+91 7999779142</p>
-                <p> <i class='bx bxs-envelope' ></i>ayushmishra11062003@gmail.com</p>
-                <p> <i class='bx bxs-map'></i>Jabalpur, MP , India-482009</p><br>
-                <div class="share">
-                    <a href=https://www.linkedin.com/in/ashish-mishra-855382229" class="" target="_blank"><img src="image/linked.png"class="social1" ></a>
-                    <a href="mailto:ashish21052002@gmail.com" class="" target="_blank"><img src="image/gmail.png" class="social1" "></a>
-                    <a href="https://github.com/Ashish9302" class=""  target="_blank"><img src="image/git.png" class="social1" "></a>                      
+            
+                <div class="mainBox">
+                    <div class="content">
+                        <div class="box">
+                            <a href="#"><img src="image/logo11.png" style=width:80px; height:80px; alt=""></a>
+                            <h1 class="logoName"> Cafe and Restaurant</h1>
+                        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> 
-        <! -- contact page section end -->
+                <div class="box">
+                    <h3>Quick link</h3>
+                    <a href="#Home"> <i class="fas fa-arrow-right"></i>Home</a>
+                    <a href="#product"> <i class="fas fa-arrow-right"></i>product</a>
+                    <a href="#Blogs"> <i class="fas fa-arrow-right"></i>blogs</a>
+                    <a href="#Review"> <i class="fas fa-arrow-right"></i>review</a>
+                    <a href="#Contant"> <i class="fas fa-arrow-right"></i>contact</a>
+                </div>
+                <div class="box">
+                    <h3>Extra link</h3>
+                    <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i>our services</a>
+                </div>
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i>+91 799779142</a>
+                    <a href="#"> <i class="fas fa-envelope"></i>ayushmishra11062003@gmail.com</a>
 
-        
-        <! -- footer section start -->
-        <h1 class="credit reveal" >Designed by <a href="https://www.linkedin.com/in/ayush-mishra-855382229">Ayush</a></h1>     
-        <! -- footer section start -->
-    </section>
-        
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                </div>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Mr.AYUSH MISHRA </span> all right reserved !
+        </div>
+
+    </footer>
+
+    <!--swiper js link -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--cutum js file -->
     <script src="script.js"></script>
 </body>
+
 </html>
